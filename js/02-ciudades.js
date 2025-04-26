@@ -23,9 +23,18 @@ document.writeln(`<ul>`);
   document.writeln(`<li>Ultimo elemento: ${ciudades[ciudades.length - 1]}</li>`);
 document.writeln(`</ul>`);
 
+ciudades.push("Paris");
+
+document.writeln(`<ul>`);
+  document.writeln(`<li>Ultimo elemento: ${ciudades[ciudades.length - 1]}</li>`);
+document.writeln(`</ul>`);
+
+ciudades[1] = "Barcelona";
+
+document.writeln("<h2>Arreglo de ciudades</h2>")
 
 document.writeln(`<ul>`);
 for (let i = 0; i < ciudades.length; i++) {
-  document.writeln(`<li>${ciudades[i]}</li>`);
+  document.writeln(`<li>Ciudades: ${ciudades[i]}</li>`);
 }
 document.writeln(`</ul>`);
