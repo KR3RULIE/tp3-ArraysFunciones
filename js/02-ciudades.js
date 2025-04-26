@@ -15,6 +15,15 @@ do {
   ciudades.push(prompt("Ingrese una ciudad:"));
 } while (confirm("¿Desea realizar otra operación?"));
 
+document.writeln(`Tu array tiene ${ciudades.length} elementos`)
+
+document.writeln(`<ul>`);
+  document.writeln(`<li>Primer elemento: ${ciudades[0]}</li>`);
+  document.writeln(`<li>Tercer elemento: ${ciudades[2]}</li>`);
+  document.writeln(`<li>Ultimo elemento: ${ciudades[ciudades.length - 1]}</li>`);
+document.writeln(`</ul>`);
+
+
 document.writeln(`<ul>`);
 for (let i = 0; i < ciudades.length; i++) {
   document.writeln(`<li>${ciudades[i]}</li>`);
