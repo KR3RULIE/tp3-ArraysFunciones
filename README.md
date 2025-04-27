@@ -20,7 +20,7 @@ Este repositorio contiene una serie de ejercicios prácticos de JavaScript enfoc
 
 ```bash
 git clone https://github.com/tu-usuario/tu-repo.git
-
+```
 ---
 
 ## 👨‍💻 Autor
