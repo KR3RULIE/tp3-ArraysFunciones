@@ -19,7 +19,8 @@ Este repositorio contiene una serie de ejercicios prácticos de JavaScript enfoc
 ## 📦 Cómo clonar este repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
+git clone https://github.com/KR3RULIE/tp3-ArraysFunciones.git
+
 ```
 ---
 
